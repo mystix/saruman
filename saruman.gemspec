@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
   # s.add_development_dependency "rspec"
   # s.add_runtime_dependency "rest-client"
   
-  s.add_dependency "activesupport", "~> 3.0.0"
+  s.add_dependency "activesupport", ">= 3.0.0"
   s.add_dependency "thor"
   s.add_dependency "highline"
   s.add_dependency "nokogiri"
